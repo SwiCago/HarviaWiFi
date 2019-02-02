@@ -8,9 +8,11 @@ Arduino code to control Harvia sauna heaters
     - MQTT setting
     -Sauna advanced settings.
 - MQTT DASH app
+    - https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=en
     - Turn on/off sauna
     - Set set point temperature in C
     - View Temperature in C/F, operating state and AutoOff status
+    - See Resource files for faster config of APP 
 
 ## Contents
 - sources
