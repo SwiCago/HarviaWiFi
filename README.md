@@ -2,6 +2,8 @@
 
 Arduino code to control Harvia sauna heaters 
 
+<img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/sauna.jpg"/>
+
 ## Contents
 - sources
 - schematics
