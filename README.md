@@ -29,6 +29,8 @@ Arduino code to control Harvia sauna heaters
     - See more APP sample images in <a href="https://github.com/SwiCago/HarviaWiFi/tree/master/images">images folder</a>
 - In order to use this APP or any other MQTT app, you will need to install an MQTT broker.
     - Mosquitto is such a broker and easy to install. Do google search for instructions
+- Integrations
+    - With MQTT you can easily integrate with openhap and homeassistant
 
 ## Flashing firmware
 ### Firmware requirements
