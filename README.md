@@ -4,6 +4,8 @@ Arduino code to control Harvia sauna heaters
 
 <img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/sauna.jpg"/>
 
+WARNING: Modifing your Sauna heater with WiFi can cause death if you are not careful. You are dealing with 240V, so take precautions not to kill yourself. I am not responsible if you kill yourself or burn your sauna/house down. You have been warned.
+
 ## Contents
 - sources
 - schematics
