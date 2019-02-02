@@ -57,13 +57,14 @@ Arduino code to control Harvia sauna heaters
 - Now that you have flashed first time, the device should be listed in the OTA sectin of port selection. If you want to make changes, you can now OTA flash. You can OTA flash even when installed in Sauna. Your Sonoff TH16 may now be install into your sauna. Remeber turn off your breaker before doing so!!!
 
 ## Notes
-<img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/TH16_board.png"/>
 
 - Never ever have mains connected to device when flashing with a serial <-> usb adapter
 - In order to Flash for the first time, you will need to solder wires or headers to the board. When ready to flash, hold push button down and apply power.
 - High voltage 240V !!! Always have the breaker off, when working on your Sauana's electrical.
 - How to backup SONOFF firmware, in case you want to put original firmware back on it.
     - esptool.py --port COMPORT read_flash 0x00000 0x100000 sonoff_TH16.bin
+    
+<img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/TH16_board.png"/>
 
 ## New Circuit Diagram
 
