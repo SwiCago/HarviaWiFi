@@ -47,9 +47,13 @@ Arduino code to control Harvia sauna heaters
 - How to backup SONOFF firmware, in case you want to put original firmware back on it.
     - esptool.py --port COMPORT read_flash 0x00000 0x100000 sonoff_TH16.bin
 
-## Demo Circuit
+## New Circuit Diagram
 
 <img src="https://github.com/SwiCago/HarviaWiFi/blob/master/schematic.png"/>
+
+## Original Circuit Diagram
+
+<img src="https://github.com/SwiCago/HarviaWiFi/blob/master/schematic_original.png"/>
 
 ## Parts
 
