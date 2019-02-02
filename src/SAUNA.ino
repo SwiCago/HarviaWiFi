@@ -13,6 +13,12 @@
 #include <math.h>
 
 // ===============================
+//
+// WARNING: Modifing your Sauna heater with WiFi can cause death if you are not careful. 
+// You are dealing with 240V, so take precautions not to kill yourself. I am not responsible 
+// if you kill yourself or burn your sauna/house down. You have been warned.
+//
+// ===============================
 
 #define BUTTON_PIN 0    // Sonoff button
 #define RELAY_PIN 12    // Sonoff relay
