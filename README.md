@@ -2,9 +2,15 @@
 
 Arduino code to control Harvia sauna heaters 
 
-## Quick start
-
-### Controlling the sauna
+## Controlling the sauna
+- First start is via Captive portal
+    - Wifi Settings
+    - MQTT setting
+    -Sauna advanced settings.
+- MQTT DASH app
+    - Turn on/off sauna
+    - Set set point temperature in C
+    - View Temperature in C/F, operating state and AutoOff status
 
 ## Contents
 - sources
