@@ -93,6 +93,8 @@ Arduino code to control Harvia sauna heaters
     - From fuse block opposire L2 connect to sonoff L(in)
     - From fuse block opposite R connect to sonoff L(out)
 - Hardware installation should be complete and easily reversable, thanks to fuse block
+    - Turn on breaker and see if Sauna is listed in your Wifi
+ <img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/wifi.jpg"/>
 
 ### New Circuit Diagram
 
