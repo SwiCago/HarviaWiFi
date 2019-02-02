@@ -42,14 +42,14 @@ Arduino code to control Harvia sauna heaters
 ## Notes
 - Never ever have mains connected to device when flashing with a serial <-> usb adapter
 - In order to Flash for the first time, you will need to solder wires or headers to the board. When ready to flash, hold push button down and apply power.
-<img src="https://github.com/SwiCago/HarviaWiFi/blob/master/board.png"/>
+<img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/images/board.png"/>
 - High voltage 240V !!! Always have the breaker off, when working on your Sauana's electrical.
 - How to backup SONOFF firmware, in case you want to put original firmware back on it.
     - esptool.py --port COMPORT read_flash 0x00000 0x100000 sonoff_TH16.bin
 
 ## New Circuit Diagram
 
-<img src="https://github.com/SwiCago/HarviaWiFi/blob/master/schematic.png"/>
+<img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/schematic.png"/>
 
 ## Original Circuit Diagram
 
