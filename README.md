@@ -4,9 +4,9 @@ Arduino code to control Harvia sauna heaters
 
 ## Controlling the sauna
 ### Captive Portal
-    <img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/CaptivePortal1.png"/>
+<img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/CaptivePortal1.png"/>
 ### MQTT DASH APP
-    <img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/Sauna_APP_Heating.png"/>
+<img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/Sauna_APP_Heating.png"/>
 - First start is via Captive portal
     - Access Point Configuration
     - MQTT Configuration
