@@ -27,6 +27,8 @@ Arduino code to control Harvia sauna heaters
     - View Temperature in C/F, operating state and AutoOff status
     - See Resource files for faster config of APP
     - See more APP sample images in <a href="https://github.com/SwiCago/HarviaWiFi/tree/master/images">images folder</a>
+- In order to use this APP or any other MQTT app, you will need to install an MQTT broker.
+    - Mosquitto is such a broker and easy to install. Do google search for instructions
 
 ## Flashing firmware
 ### Firmware requirements
@@ -93,7 +95,7 @@ Arduino code to control Harvia sauna heaters
     - From fuse block opposire L2 connect to sonoff L(in)
     - From fuse block opposite R connect to sonoff L(out)
 - Hardware installation should be complete and easily reversable, thanks to fuse block
-    - Turn on breaker and see if Sauna is listed in your Wifi
+    - Turn on breaker and see if Sauna is listed in your Wifi. Connect to it configure and enjoy
  <img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/wifi.png"/>
 
 ### New Circuit Diagram
