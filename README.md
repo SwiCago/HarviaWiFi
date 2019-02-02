@@ -77,11 +77,14 @@ Arduino code to control Harvia sauna heaters
 ## Parts
 
 - SONOFF TH16
-    - https://www.amazon.com/Sonoff-TH16-Temperature-Monitoring-Compatible/dp/B06XTNSJ46/ref=sr_1_2?ie=UTF8&qid=1549127783&sr=8-2&keywords=sonoff+th16
+    - https://www.amazon.com/Sonoff-TH16-Temperature-Monitoring-Compatible/dp/B06XTNSJ46/
 - DS18B20 Waterproof Temperature Sensor
-    - https://www.amazon.com/Sonoff-DS18B20-Waterproof-Temperature-Automation/dp/B07F34DF2T/ref=sr_1_5?ie=UTF8&qid=1549127783&sr=8-5&keywords=sonoff+th16
+    - https://www.amazon.com/gp/product/B078NRBNM8/
 - 2.5mm extension cable
-    - https://www.amazon.com/YCS-Basics-Conductor-Headphone-Extension/dp/B00FJEH1PY/ref=sr_1_2_sspa?ie=UTF8&qid=1549127906&sr=8-2-spons&keywords=3m+2.5mm+4+pin+extension+cable&psc=1
+    - https://www.amazon.com/gp/product/B00FJEH1PY/
+- Fuse Block
+    - https://www.amazon.com/gp/product/B0752QMXGC/
+  
 
 ## Licence
 
