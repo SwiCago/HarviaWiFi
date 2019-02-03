@@ -40,6 +40,7 @@ WARNING: Modifing your Sauna heater with WiFi can cause death if you are not car
 ### Firmware requirements
 - You will need latest Arduino IDE
 - Install ESP8266 board in the IDE
+- Download <a href="https://github.com/knolleary/pubsubclient">pubsub client</a> library for arduino
 - Download this code
 - Connect SONOFF TH16 to serial <--> usb adapter
 - Flash Settings
