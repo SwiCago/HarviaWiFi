@@ -1,3 +1,18 @@
+/*
+  SAUNA.ino - Harvia sauna heater control code for Sonoff TH esp8266 based devices.
+  Copyright (c) 2019 Al Betschart.  All right reserved.
+  This library is free software; you can redistribute it and/or
+  modify it under the terms of the GNU Lesser General Public
+  License as published by the Free Software Foundation; either
+  version 2.1 of the License, or (at your option) any later version.
+  This library is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+  You should have received a copy of the GNU Lesser General Public
+  License along with this library; if not, write to the Free Software
+  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
 #include "SAUNA.h"
 #include <FS.h>
 #include <ESP8266mDNS.h>
@@ -8,6 +23,7 @@
 #include <ESP8266WebServer.h>
 #include <DNSServer.h>
 #include <PubSubClient.h>
+//Note PubSubClient.h has a MQTT_MAX_PACKET_SIZE of 128 defined, so either raise it to 256 or use short topics
 #include <OneWire.h>
 #include <DallasTemperature.h>
 #include <math.h>
