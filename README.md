@@ -126,7 +126,7 @@ WARNING: Modifing your Sauna heater with WiFi can cause death if you are not car
     - https://www.amazon.com/dp/B000CF7CRW/
   
 
-## Licence
+## License
 
 Licensed under the GNU Lesser General Public License.
 https://www.gnu.org/licenses/lgpl.html
