@@ -55,8 +55,8 @@ WARNING: Modifing your Sauna heater with WiFi can cause death if you are not car
   - Port sauna at xxx.xxx.xxx.xxx
 
 ### First time flashing
-- !!! DO NOT have mains connected to device when flashing with a serial <-> usb adapter. It will destroy the device and quite possible your computer and you might even kill yourself !!!
-- Connect SONOFF TH16 via serial <-> usb adapterto computer (make sure you yours has 3v3 option), do not plug into your computer yet
+- !!! DO NOT have mains connected to device when flashing with a serial <-> usb adapter. It will destroy the device and quite possibly your computer and you might even kill yourself !!!
+- Connect SONOFF TH16 via serial <-> usb adapterto computer (make sure yours has 3v3 option), do not plug into your computer yet
 - Hold white button down and then connect usb side of adapter to your computer.
 - Select the COM device under Port setting of the IDE and then Upload
 - After flashing is complete, it should reboot and be in captive portal mode.
