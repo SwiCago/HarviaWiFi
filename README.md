@@ -72,7 +72,7 @@ WARNING: Modifing your Sauna heater with WiFi can cause death if you are not car
 - In order to Flash for the first time, you will need to solder wires or headers to the board. When ready to flash, hold push button down and apply power.
 - How to backup SONOFF firmware, in case you want to put original firmware back on it.
     - esptool.py --port COMPORT read_flash 0x00000 0x100000 sonoff_TH16.bin
-- Note: the sonoff TH16 has pads for UFL connector. This allows you to use an external antenna if needed.
+- Note: the sonoff TH16 has pads for UFL connector(bottom right of pic below). This allows you to use an external antenna if needed.
 <img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/TH16_board.png"/>
 
 ## Hardware Installation
