@@ -68,9 +68,8 @@ WARNING: Modifing your Sauna heater with WiFi can cause death if you are not car
 
 ### Notes
 
-- Never ever have mains connected to device when flashing with a serial <-> usb adapter
+- I repeat! Never ever have mains(240V or 120V) connected to device when flashing with a serial <-> usb adapter
 - In order to Flash for the first time, you will need to solder wires or headers to the board. When ready to flash, hold push button down and apply power.
-- High voltage 240V !!! Always have the breaker off, when working on your Sauana's electrical.
 - How to backup SONOFF firmware, in case you want to put original firmware back on it.
     - esptool.py --port COMPORT read_flash 0x00000 0x100000 sonoff_TH16.bin
 - Note: the sonoff TH16 has pads for UFL connector. This allows you to use an external antenna if needed.
@@ -80,7 +79,7 @@ WARNING: Modifing your Sauna heater with WiFi can cause death if you are not car
 
 ## Installation
 - Turn OFF breaker, 240V will kill you.
-- Review Circuit diagrams, so you know which connectors to move
+- Review Circuit diagrams, so you know which spade connectors to move
 - Put 6 20A fuses into fuse block and slose
 - Open bottom panel of Harvia heater
 - Install Fuse block in a convinient spot, I chose to install where thermostat and timer switch were.
