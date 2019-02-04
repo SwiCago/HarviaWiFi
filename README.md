@@ -1,6 +1,6 @@
 # HarviaWiFi
 
-Arduino code to control Harvia sauna heaters 
+Arduino code to control Harvia sauna heaters, with esp8266 enabled sonoff TH device
 
 <img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/sauna.jpg"/>
 
