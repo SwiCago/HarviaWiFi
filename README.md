@@ -106,11 +106,11 @@ WARNING: Modifing your Sauna heater with WiFi can cause death if you are not car
 
 ### New Circuit Diagram
 
-<img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/schematic.png"/>
+<img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/schematic.png" style="max-width:300px"/>
 
 ### Original Circuit Diagram
 
-<img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/schematic_original_alt.png"/>
+<img src="https://github.com/SwiCago/HarviaWiFi/blob/master/images/schematic_original_alt.png" style="max-width:300px"/>
 
 ### Parts Required
 
