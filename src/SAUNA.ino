@@ -48,8 +48,8 @@ DallasTemperature sensors(&oneWire);
 DeviceAddress sensor;
 
 // wifi/mqtt variables (these are set by config page and then stored in SPIFFS)
-char ap_ssid[40];
-char ap_pwd[10];
+char ap_ssid[32];
+char ap_pwd[64];
 char host_name[10];
 char mqtt_server[40];
 char mqtt_port[6];
@@ -446,7 +446,7 @@ void load_config() {
           strcpy(host_name, json["host_name"]);
           strcpy(mqtt_server, json["mqtt_host"]);
           strcpy(mqtt_port, json["mqtt_port"]);
-          strcpy(mqtt_pwd, json["mqtt_user"]);
+          strcpy(mqtt_user, json["mqtt_user"]);
           strcpy(mqtt_pwd, json["mqtt_pwd"]);
           strcpy(client_id, json["mqtt_id"]);
           strcpy(sub_topic, json["mqtt_sub"]);
