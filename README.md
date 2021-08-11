@@ -65,7 +65,7 @@ WARNING: Modifing your Sauna heater with WiFi can cause death if you are not car
     - Connect your table or phone to open wifi "sauna" and it should ask you to sign in. If not open your browser and go to 192.168.1.1
     - Enter config details necessary to connect to your network and MQTT broker. The device will reboot and connect to your network. You should see data on MQTT broker.
     - If you mess up configuration at anytime, just hold button down for at least 30 seconds and this will reset back to captive portal mode.
-- Now that you have flashed first time, the device should be listed in the OTA section of port selection. If you want to make changes, you can now OTA flash. You can OTA flash even when installed in Sauna. Your Sonoff TH16 may now be install into your sauna. Remeber turn off your breaker before doing so!!!
+- Now that you have flashed first time, the device should be listed in the OTA section of port selection. If you want to make changes, you can now OTA flash. You can OTA flash even when installed in Sauna. Your Sonoff TH16 may now be install into your sauna. Remember turn off your breaker before doing so!!!
 
 ### Notes
 
