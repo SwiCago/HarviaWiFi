@@ -267,7 +267,7 @@ void sendData(float tempC, float tempF) {
   root["state"] = deviceOn == true ? 1 : 0;
   root["active"] = relayState == HIGH ? 1 : 0;
   root["setpoint"] = setTemp;
-  int timeLeft = round(((onTime + (maxRunTime * 60 * 1000)) - millis()) / (60 * 1000)) + 1;
+  int timeLeft = round(((maxRunTime * 60 * 1000) - (millis() - onTime)) / (60 * 1000)) + 1;
   root["autooff"] = !deviceOn || timeLeft < 0 || timeLeft > maxRunTime ? 0 : timeLeft;
 
   char buffer[512];
@@ -414,7 +414,7 @@ void changeRelayState(float temp) {
 
 // Auto off timer
 void checkTime() {
-  if (deviceOn && millis() > (onTime + (maxRunTime * 60 * 1000))) {
+  if (deviceOn && millis() - onTime > maxRunTime * 60 * 1000) {
     deviceOn = false;
   }
 }
